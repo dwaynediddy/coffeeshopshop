@@ -2,7 +2,6 @@ import React from 'react'
 import { 
     Card, 
     CardMedia, 
-    // CardContainer,
     CardContent, 
     CardActions, 
     Typography, 
@@ -20,18 +19,24 @@ const Product = ({ product }) => {
             <CardMedia 
                 className={classes.media} 
                 image=''
-                title={product.name}
+                title='title'
+                
             />
             <CardContent>
                 <div className={classes.cardContent}>
                     <Typography variant='h5' gutterBottom>
-                        {product.name}
+                        {/* {product.name} */}
+                        name
                     </Typography>
-                    <Typography varient='h5'>
-                        {product.price}
+                    <Typography variant='h5'>
+                        {/* {product.price} */}
+                        price
                     </Typography>
                 </div>
-                <Typography variant='h2' color='textSecondary'>{product.description}</Typography>
+                <Typography variant='h2' color='textSecondary'>
+                    {/* {product.description} */}
+                    description
+                </Typography>
             </CardContent>
             <CardActions disableSpacing className={classes.cardActions}>
                 <IconButton aria-label='Add to Cart'>

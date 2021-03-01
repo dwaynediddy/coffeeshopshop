@@ -3,11 +3,11 @@ import { Grid } from '@material-ui/core'
 
 import Product from './products/Product'
 
+
 const products = [
     { id: 1, name: 'beans', description: 'dark blend', price: '$19.95' },
     { id: 2, name: 'mug', description: 'cool mug', price: '$19.95' },
 ]
-
 const Products = () => {
     return (
         <main>
