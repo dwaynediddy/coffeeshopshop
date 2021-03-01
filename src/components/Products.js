@@ -3,10 +3,13 @@ import { Grid } from '@material-ui/core'
 
 import Product from './products/Product'
 
+import Bamboo from '../images/bamboo.png'
+import Drip from '../images/drip.png'
+
 
 const products = [
-    { id: 1, name: 'beans', description: 'dark blend', price: '$19.95' },
-    { id: 2, name: 'mug', description: 'cool mug', price: '$19.95' },
+    { id: 1, name: 'coffee drip', description: 'coffee drip', price: '$19.95', image: Bamboo},
+    { id: 2, name: 'bamboo mugs', description: 'cool mug', price: '$19.95', image: Drip},
 ]
 const Products = () => {
     return (
