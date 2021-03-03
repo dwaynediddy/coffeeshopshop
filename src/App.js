@@ -7,7 +7,7 @@ import Navbar from './components/navbar/Navbar'
 
 function App() {
   const [ products, setProdcuts ] = useState([])
-  const [cart, setCart] = useState({})
+  // const [cart, setCart] = useState({})
 
   const fetchProducts = async () => {
     const { data } = await commerce.products.list()
