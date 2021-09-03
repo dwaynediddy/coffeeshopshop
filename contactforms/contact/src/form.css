@@ -1,0 +1,110 @@
+.form-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+    background-color: #f7f5f1;
+  
+  }
+  
+  .scroll {
+    cursor: pointer;
+  }
+  
+  input {
+      border: none;
+      width: 100%;
+      border-radius: 2%;
+  }
+  input::placeholder {
+    color: rgb(159, 155, 155);
+    font-size: 1.0em;
+    font-style: italic;
+  }
+  
+  .form-group {
+    order: 1;
+    margin: 0 5px; 
+    width: 52.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+  }
+  @media screen and (max-width: 420px) {
+    .form-group {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .form-name {
+    margin: 0 3px;
+    width: 51%;
+  }
+  
+  @media screen and (max-width: 420px) {
+    .form-name {
+      width: 100%;
+      margin: 10px;
+    }
+  }
+  
+  
+  
+  .form-number {
+    margin: 0 5px;
+    width: 52%;
+    }
+  
+    @media screen and (max-width: 420px) {
+      .form-number{
+        width: 100%;
+      }
+    }
+  
+    .form-email {
+        order: 3;
+        margin: 10px 0;
+        width: 51%;
+      }
+      
+      .form-message {
+        order: 4;
+        width: 51%;
+      }
+      textarea {
+        border: none;
+        text-decoration: none;
+        margin: 5px 0;
+        width: 100%;
+  }  
+  
+  textarea::placeholder {
+    color: rgb(159, 155, 155);
+    font-size: 1.0em;
+    font-style: italic;
+  }
+  
+  .form-button {
+      order: 5;
+  }
+  
+  button {
+      background-color: #eb4f47;
+      color: #fff;
+      border: none;
+      font-size: 0.5em !important;
+      width: 42px;
+      height: 25px;
+      border-radius: 5%;
+      padding: 7px 10px 8px 10px;
+  
+  }
+  
+  button:hover {
+      background-color: #eb4f47c8;
+      
+  }
